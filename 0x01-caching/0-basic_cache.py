@@ -2,6 +2,8 @@
 """0-basic_cache module
 """
 from base_caching import BaseCaching
+
+
 class BasicCache(BaseCaching):
     """ BasicCache defines:
       - how to cache your data
@@ -27,5 +29,3 @@ class BasicCache(BaseCaching):
             return
         else:
             return self.cache_data[key]
-
-
